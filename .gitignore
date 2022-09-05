@@ -1,2 +1,2 @@
-# images 폴더 무시
-images/
+*.png
+*.gif
