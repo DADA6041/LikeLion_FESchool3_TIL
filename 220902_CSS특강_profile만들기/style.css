@@ -1,0 +1,104 @@
+/* Reset */
+h1, h2, p, ul {
+    margin: initial;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Components */
+body {
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper {
+    background-color: #ddd;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/cover03.png);
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.header img {
+    border-radius: 30%;
+    border: 5px solid;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.header p {
+    border-top: 5px solid;
+    width: fit-content; /* 텍스트 양만큼 값 조정됨 */ 
+    /* max-content, min-content*/
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.section {
+    background-image: url(images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    /* 오른쪽 기준에서 30px떨어지고 세로기준 센터 */
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.skills {
+    background-image: url(images/icon-skills.png);
+}
+
+.section h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px 0;
+}
+
+.link {
+
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid;
+    color: #ccc;
+}
+
+.link.facebook {
+    color: dodgerblue;
+}
+
+.link.github {
+    color: black;
+}
+
+.link.contact {
+    color: rgb(162, 32, 162);
+}
