@@ -1,3 +1,5 @@
+# 이미지 폴더 무시
 /images
 *.png
 *.gif
+*.jpg
