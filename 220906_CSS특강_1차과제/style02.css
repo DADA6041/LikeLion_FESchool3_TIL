@@ -1,0 +1,42 @@
+/* Resets */
+h1, p{
+    margin: 0;
+}
+/* Layouts */
+.container { 
+    width: 300px;
+    margin: 50px auto;
+}
+/* Components */
+body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    vertical-align: top;
+}
+.animal {
+    display: block;
+    margin: 0 auto;
+}
+
+.ground {
+    background-color: #8F552E;
+    background-image: url(images/green.png);
+    background-repeat: repeat-x;
+    color: #d2baad;
+    padding: 80px 30px 30px 30px;
+    border-radius: 0 0 26px 26px;
+    border-bottom: 10px solid #4a260b;
+}
+.ground h1 {
+    color: white;
+    margin-bottom: 14px;
+}
+.ground p + p {
+    font-size: 14.5px;
+    margin-top: 1em;
+}
