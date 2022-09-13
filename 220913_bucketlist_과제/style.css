@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700;800;900&display=swap');
+/* Reset */
+h1{
+    margin: 0;
+    font-size: inherit;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Components */
+
+body{
+    background-color: #DDDDDD;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0 0 10px  #bababa;
+    font-family: 'Gothic A1', sans-serif;
+}
+.title-box {
+    border-bottom: 4px solid #DDDDDD;
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
+    padding: 40px 0;
+}
+.list-box {
+    background-color: #EFEFEF;
+    border-radius: 0 0 30px 30px ;
+    padding: 20px;
+    height: fit-content;
+}
+
+.list-title {
+    font-size: 25px;
+    line-height: 25px;
+    vertical-align: bottom;
+    font-weight: 900;
+    margin-left: 25px;
+    color: #FF1493;
+    display: inline-block;
+    word-break: break-all;
+    position: relative;
+}
+
+.list-title::before{
+    content: ' ';
+    
+    height: 1.3em;
+    width: 0.45em;
+    position: absolute;
+    top: -0.2em;
+    left: -25px;
+    background: #FF1493;
+}
+
+.list-todo {
+    background-color: #fff;
+    margin : 15px;
+    font-weight: 600;
+    color: #494949;
+    border: 5px solid #AAAAAA;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+/* .selected{
+    border: 5px solid #8765f7;
+    color: #8765f7;
+} */
+
+.list-todo:hover{
+    border: 5px solid #8765f7;
+    color: #8765f7;
+    box-shadow: 0 0 5px  #bababa;
+    cursor: pointer;
+}
